@@ -1,0 +1,57 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-11-07 22:54:37.717270",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "home_page_background",
+  "column_break_2",
+  "application_logo",
+  "test"
+ ],
+ "fields": [
+  {
+   "fieldname": "home_page_background",
+   "fieldtype": "Attach",
+   "label": "Home page background"
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "application_logo",
+   "fieldtype": "Attach",
+   "label": "Application logo"
+  },
+  {
+   "fieldname": "test",
+   "fieldtype": "Data",
+   "label": "test"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2022-11-09 05:43:33.664890",
+ "modified_by": "Administrator",
+ "module": "Company Diligentrust",
+ "name": "Whitelabel Setting",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
