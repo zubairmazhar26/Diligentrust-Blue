@@ -1,0 +1,13 @@
+<footer class="web-footer" style="background-image: linear-gradient(to right, rgb(57 244 236 / 29%), rgb(7 48 226 / 83%)) !important;
+color: #1195ea !important;">
+	<div class="container">
+		{% include "templates/includes/footer/footer_logo_extension.html" %}
+
+		{% if footer_items -%}
+			{% include "templates/includes/footer/footer_grouped_links.html" %}
+		{% endif %}
+
+		{% include "templates/includes/footer/footer_links.html" %}
+		{% include "templates/includes/footer/footer_info.html" %}
+	</div>
+</footer>
