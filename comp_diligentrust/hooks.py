@@ -87,9 +87,10 @@ web_include_css = "/assets/comp_diligentrust/css/diligen_web.css"
 # ---------------
 # Override standard doctype classes
 
-# override_doctype_class = {
-#	"ToDo": "custom_app.overrides.CustomToDo"
-# }
+override_doctype_class = {
+	# "ToDo": "custom_app.overrides.CustomToDo"
+	"PaymentRequest": "comp_diligentrust.overrides.Pay"
+}
 
 # Document Events
 # ---------------
